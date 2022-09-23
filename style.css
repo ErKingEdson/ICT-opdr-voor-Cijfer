@@ -1,7 +1,7 @@
 body{font-family: 'Inter', sans-serif;}
 
-.intro{font-size: 20px;padding: 30px; ;}
-.grote-tekst{font-size: 70px;}
+.intro{font-size: 25px;padding: 30px 100px; ;}
+.grote-tekst{font-size: 70px; }
 
 .button0{
   color: white;
@@ -12,7 +12,6 @@ body{font-family: 'Inter', sans-serif;}
   text-decoration: none;
   font-weight: 700;
 }
-
 .button1{
   color: white;
   border: 4px;
@@ -22,19 +21,27 @@ body{font-family: 'Inter', sans-serif;}
   text-decoration: none;
   font-weight: 700;
 }
+.button3{
+  color: white;
+  border-radius: 4px;
+  background: #319bff;
+  padding: 31px 250px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+}
 .header{
   width:100%;
   background: black;
-  padding: 30px;
+  padding: 35px ;
   display:flex;
 }
 
 .hero{
   height: 500px;
   width: 100%;
-  display: flex; ;
+  display:flex;
   align-items: center;
-  background: url ("video.mp4");
 }
 .heroclasse{
   width: 100%;
