@@ -1,82 +1,30 @@
 body{font-family: 'Inter', sans-serif;}
 
 .intro{font-size: 25px;}
-a{text-decoration: none;color: red;}
-.grote-tekst{font-size: 70px;padding: 30px 100px}
-.groot-tekst-contact{color: white;font-size:40px;padding:30px;}
-input,
-label{display :block;color: white;width: 100%;}
+a{text-decoration: none; color: red;}
+.grote-tekst{font-size: 70px; padding: 30px 100px}
+.groot-tekst-contact{color: white; font-size:40px; padding:30px;}
+input,label{display :block; color: white; width: 100%;}
 
-.button0{
-  color: white;
-  border-radius: 4px;
-  background: #310bff;
-  padding: 31px 25px;
-  display: inline-block;
-  text-decoration: none;
-  font-weight: 700;
-}
-.button1{
-  color: white;
-  border: 4px;
-  background: black;
-  padding: 31px 25px;
-  display: inline-block;
-  text-decoration: none;
-  font-weight: 700;
-}
-.button3{
-  color: white;
-  border-radius: 4px;
-  background: #310bff;
-  padding: 31px 250px;
-  display: inline-block;
-  text-decoration: none;
-  font-weight: 700;
-}
-.header{
-  width:100%;
-  background: black;
-  padding: 35px ;
-  display:flex;
-}
+.button0{color: white; border-radius: 4px; background: #310bff; padding: 31px 25px; display: inline-block; text-decoration: none; font-weight: 700;}
 
-.hero{
-  height: 500px;
-  width: 100%;
-  display:flex;
-  align-items: center;
-}
+.button1{color: white; border: 4px; background: black; padding: 31px 25px; display: inline-block; text-decoration: none; font-weight: 700;}
 
-.heroclasse{
-  width: 100%;
-  margin: 150px;  
-  color: black;
-}
+.button3{color: white; border-radius: 4px; background: #310bff; padding: 31px 250px; display: inline-block; text-decoration: none; font-weight: 700;}
 
-.contact-container{
-  background: #1b1c1e;
-  text-align: center;
-  max-width: 100%;
-  padding: 3%;
-}
+.header{width:100%; background: black; padding: 35px ; display:flex;}
 
-form{
-  max-width: 500px;
-  text-align: left;
-  padding: 20px ;
-}
+.hero{height: 500px; width: 100%; display:flex; align-items: center;}
 
-input,
-textarea{
-  background: transparent;
-  border-bottom: 2xp solid white;
-}
-input[type=submit]{
-  background-color: #59585a;
-  padding: 15px;
-  font-size: 18px;
-  margin-top: 30px;
-  color:white;
-  border: 5px solid black;
-}
+.back-video{position:absolute; right: 0; bottom: 0; z-index: -1;}
+
+.heroclasse{width: 100%; margin: 150px;   color: black;}
+
+.contact-container{background: #1b1c1e; text-align: center; max-width: 100%; padding: 3%;}
+
+form{max-width: 500px; text-align: left; padding: 20px;}
+
+input,textarea{ background: transparent; border-bottom: 2xp solid white;}
+
+input[type=submit]{background-color: #59585a; padding: 15px; font-size: 18px;margin-top: 30px; color:white; border: 5px solid black;}
+
