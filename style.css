@@ -1,7 +1,11 @@
 body{font-family: 'Inter', sans-serif;}
 
-.intro{font-size: 25px;padding: 30px 100px; ;}
-.grote-tekst{font-size: 70px; }
+.intro{font-size: 25px;}
+a{text-decoration: none;color: red;}
+.grote-tekst{font-size: 70px;padding: 30px 100px}
+.groot-tekst-contact{color: white;font-size:40px;padding:30px;}
+input,
+label{display :block;color: white;width: 100%;}
 
 .button0{
   color: white;
@@ -43,8 +47,36 @@ body{font-family: 'Inter', sans-serif;}
   display:flex;
   align-items: center;
 }
+
 .heroclasse{
   width: 100%;
   margin: 150px;  
   color: black;
+}
+
+.contact-container{
+  background: #1b1c1e;
+  text-align: center;
+  max-width: 100%;
+  padding: 3%;
+}
+
+form{
+  max-width: 500px;
+  text-align: left;
+  padding: 20px ;
+}
+
+input,
+textarea{
+  background: transparent;
+  border-bottom: 2xp solid white;
+}
+input[type=submit]{
+  background-color: #59585a;
+  padding: 15px;
+  font-size: 18px;
+  margin-top: 30px;
+  color:white;
+  border: 5px solid black;
 }
