@@ -1,39 +1,116 @@
 body{font-family: 'Inter', sans-serif;}
 
-.intro{font-size: 25px; margin-bottom: 40xp;}
+/* ! settings/all-pages */
+
 a{text-decoration: none; color: blue;}
-.grote-tekst{font-size: 70px; margin-top: 75px}
-.groot-tekst-contact{color: white ; font-size:45px; margin-top: 30px;}
-label{text-decoration: none; font-weight: 700; font-size: 17px;}
-input,label{width: 100%; display :block; color: white;}
-input,textarea {background: transparent; font-weight: 700; font-size: 17px; color: white;}
-input[type=submit]{background-color: #1561f9; padding: 15px; font-weight: 700; font-size: 21px; color: white; border: 30px solid #020f22;}
+.header{width:100%;
+        background:#020f22;
+        padding:35px;
+        display:flex;}
+.button0{color:white;
+         border-radius:4px;
+         background:#1561f9;
+         padding: 31px 25px;
+         display:inline-block;
+         text-decoration:none;
+         font-weight:700;
+         font-size:19px;
+         position:absolute;
+         right:7%}
+.button1{color:white;
+         border:4px;
+         background:#020f22;
+         padding: 31px 25px;
+         display:inline-block;
+         text-decoration:none;
+         font-weight:700;
+         font-size:19px;}
 
-.button0{color: white; border-radius: 4px; background: #1561f9; padding: 31px 25px; display: inline-block; text-decoration: none; font-weight: 700; font-size: 19px; position:absolute; right:7%}
+/* ! home-page */
 
-.button1{color: white; border: 4px; background: #020f22; padding: 31px 25px; display: inline-block; text-decoration: none; font-weight: 700; font-size: 19px; }
+.button3{color: white;
+         border-radius:4px;
+         background:#020f22;
+         padding: 31px 100px;
+         display:inline-block;
+         text-decoration: none;
+         font-weight:700;
+         font-size:19px;}
+.container-home{height:500px;
+                width:100%;
+                display:flex;
+                align-items:center;}
+.sfondo-primario{position: absolute;
+                 width:100%;
+                 z-index: -1;
+}
+.intro{
+  font-size:25px;
+  margin-bottom:40xp;}
+.grote-tekst-home{
+    font-size:70px;
+    margin-top:75px;}
+.container-home2{width:100%;
+                 margin:150px;
+                 color:black;}
+.containerclass-home2{
+  text-align: center;}
 
-.button3{color: white; border-radius: 4px; background: #020f22; padding: 31px 100px; display: inline-block; text-decoration: none; font-weight: 700; font-size: 19px;}
+/* ! Voor meer informatie */
+.kopjes-informatie{
+  text-align: center;
+  
+}
 
-.header{width:100%; background: #020f22; padding: 35px ; display:flex;}
 
-.container-home{height: 500px; width: 100%; display:flex; align-items: center;}
 
-.back-video{position:absolute; right: 0; bottom: 0; z-index: -1;}
+/* ! geschiedenis-page */
 
-.container-home2{width: 100%; margin: 150px;   color: black;}
+/* ! video-page */
 
-.containerclass-home2{text-align: center;}
+/* ! Contact-page */
 
-.contact-container{background: #020f22 ; text-align: center; width: 100%;padding-top: 3%;}
-
-form{max-width: 500px; text-align: left; padding: 12px; }
-
-.h2-contact{position:absolute; right:14%;}
-
-.contact-ul{color: black; font-weight: 700; font-size: 17px;}
-
-.contact-link{position:absolute; right:7%; bottom: -42%;}
+.groot-tekst-contact{
+  color:white;
+  font-size:45px;
+  margin-top:30px;}
+label{
+  text-decoration:none;
+  font-weight:700;
+  font-size:17px;}
+input,label{
+  width:100%;
+  display:block;
+  color:white;}
+input,textarea{
+  background:transparent;
+  font-weight:700;
+  font-size:17px;
+  color: white;}
+input[type=submit]{
+  background-color:#1561f9;
+  padding:15px;
+  font-weight:700;
+  font-size:21px;
+  color:white;
+  border: 30px solid #020f22;}
+.contact-container{
+  background:#020f22;
+  Text-align:center;
+  width:100%;
+  padding-top:3%;}
+form{max-width:500px;
+     text-align:left;
+     padding: 60px;
+     right:80%}
+.container2-contact{
+  padding: 30px;
+}
+.contact-ul{
+  color:black;
+  font-weight:700;
+  font-size:17px;
+}
 
 
 
