@@ -4,6 +4,7 @@ body{font-family: 'Inter', sans-serif;}
 
 a{text-decoration: none; color: blue;}
 .header{width:100%;
+        position: relative;
         background:#020f22;
         padding:35px;
         display:flex;}
@@ -18,17 +19,14 @@ a{text-decoration: none; color: blue;}
          position:absolute;
          right:7%}
 .button1{color:white;
-         border:4px;
-         background:#020f22;
          padding: 31px 25px;
          display:inline-block;
          text-decoration:none;
          font-weight:700;
          font-size:19px;}
-
 /* ! home-page */
 
-.button3{color: white;
+.button4{color: white;
          border-radius:4px;
          background:#020f22;
          padding: 31px 100px;
@@ -55,12 +53,11 @@ a{text-decoration: none; color: blue;}
                  color:black;}
 .containerclass-home2{
   text-align: center;}
-
 /* ! Voor meer informatie */
-.kopjes-informatie{
-  text-align: center;
-  
+.kopjes-informatie {text-align: center;}
 }
+<
+
 
 
 
