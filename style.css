@@ -3,9 +3,10 @@ body{font-family: 'Inter', sans-serif;}
 /* ! settings/all-pages */
 
 a{text-decoration: none; color: blue;}
-.header{width:100%;
+.header{width:33%;
         position: relative;
-        background:#020f22;
+        right: -60%;
+        background: red;
         padding:35px;
         display:flex;}
 .button0{color:white;
@@ -57,6 +58,9 @@ a{text-decoration: none; color: blue;}
 .kopjes-informatie {text-align: center;}
 }
 <
+
+  
+}
 
 
 
