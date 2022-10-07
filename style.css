@@ -12,9 +12,9 @@ body{
 /* ! settings/all-pages */
 
 a{text-decoration: none; color: blue;}
-.header{width:27%;
-        position: relative;
-        right: -70%;
+.header{width:30%;
+        position:relative;
+        right: -65%;
         background: transparent;
         padding:35px;
         display:flex;}
@@ -32,15 +32,16 @@ a{text-decoration: none; color: blue;}
          padding: 31px 25px;
          display:inline-block;
          text-decoration:none;
-         font-weight:700;
+         font-weight:800;
          font-size:19px;}
+
 /* ! home-page */
 
 .button4{  text-decoration: none;
   display: inline-block;
   color: #020f22;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 900;
   border: solid #020f22;
   border-radius: 50px;
   padding: 14px 70px;}
@@ -48,6 +49,7 @@ a{text-decoration: none; color: blue;}
                 width:100%;
                 display:flex;
                 align-items:center;}
+
 .sfondo-primario{position: absolute;
                  width:100%;
                  z-index: -1;
@@ -55,10 +57,12 @@ a{text-decoration: none; color: blue;}
 .intro{
   font-size:25px;
   margin-bottom:40xp;
+  font-weight: 700;
 }
 .grote-tekst-home{
     font-size:70px;
     margin-top:75px;
+  font-weight:800;
 }
 .container-home2{
   width:100%;
@@ -70,10 +74,24 @@ a{text-decoration: none; color: blue;}
   text-align: center;
 }
 /* ! Voor meer informatie */
+
 .kopjes-informatie {
   text-align: center;
+color: black
+}
+.container-Inf {
+            background: #ffffff8c;
+}
+
+.foto{
+  width:200px;
+}
+.fabriek{
+  width:200px;
+position: ;
 }
 /* ! geschiedenis-page */
+
 
 /* ! video-page */
 
