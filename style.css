@@ -69,8 +69,7 @@ a{text-decoration: none; color: blue;}
    margin:150px;
    color:black;
 }
-.containerclass-home2
-{
+.containerclass-home2{
   text-align: center;
 }
 /* ! Voor meer informatie */
@@ -83,18 +82,52 @@ color: black
             background: #ffffff8c;
 }
 
+
 .foto{
   width:200px;
 }
+.virtuele assistentie{
+  width:200px;}
 .fabriek{
-  width:200px;
-position: ;
-}
+  width:200px;}
+
+
 /* ! geschiedenis-page */
 
 
 /* ! video-page */
 
+.sfondo-video{
+  position: absolute;
+  width:100%;
+  left: -1%;
+  bottom: 1%;
+  z-index: -1;
+}
+
+.video1{
+  position:absolute;
+  width:600px; 
+  height:350px;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+.video2{
+  position:absolute;
+  right: 3%;
+  bottom: 30%;
+}
+.video3{
+  position:absolute;
+  right: 3%;
+  bottom: 20%;
+}
+.video4{
+  position:absolute;
+  right: 3%;
+  bottom: 5%;
+}
+  
 /* ! Contact-page */
 
 .groot-tekst-contact{
