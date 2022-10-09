@@ -1,55 +1,56 @@
 body{
   font-family: 'Inter', sans-serif;  
 }
+a{text-decoration: none; color: blue;}
 
-.infFoto{
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  bottom: -2%;
-}
 
 /* ! settings/all-pages */
 
-a{text-decoration: none; color: blue;}
 .header{width:30%;
         position:relative;
         right: -65%;
         background: transparent;
         padding:35px;
         display:flex;}
-.button0{color:white;
-         border-radius:4px;
-         background:#020f22;
+.button0{color: #020f22;
          padding: 31px 25px;
          display:inline-block;
-         text-decoration:none;
-         font-weight:700;
-         font-size:19px;
-         position:absolute;
-         right:7%}
+         font-size:40px;
+         position: absolute;
+         right: 7%;
+         top: 15%;
+}
 .button1{color:#020f22;
          padding: 31px 25px;
          display:inline-block;
          text-decoration:none;
-         font-weight:800;
+         font-weight:900;
          font-size:19px;}
+.button00{
+         color: #020f22;
+         padding: 31px 25px;
+         display:inline-block;
+         font-size:40px;
+         position: absolute;
+         right: 91%;
+         top: 12%;
+}
 
 /* ! home-page */
 
-.button4{  text-decoration: none;
+.button4{
+  text-decoration: none;
   display: inline-block;
-  color: #020f22;
+  color: black;
   font-size: 24px;
   font-weight: 900;
-  border: solid #020f22;
+  border: solid black 5px;
   border-radius: 50px;
   padding: 14px 70px;}
 .container-home{height:500px;
                 width:100%;
                 display:flex;
                 align-items:center;}
-
 .sfondo-primario{position: absolute;
                  width:100%;
                  z-index: -1;
@@ -72,8 +73,15 @@ a{text-decoration: none; color: blue;}
 .containerclass-home2{
   text-align: center;
 }
+
 /* ! Voor meer informatie */
 
+.infFoto{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  bottom: -2%;
+}
 .kopjes-informatie {
   text-align: center;
 color: black
@@ -82,50 +90,53 @@ color: black
             background: #ffffff8c;
 }
 
+/* ! Afbeelding -page */
 
-.foto{
-  width:200px;
-}
 .virtuele assistentie{
   width:200px;}
 .fabriek{
   width:200px;}
-
-
-/* ! geschiedenis-page */
-
+.foto{
+  width:200px;
+}
 
 /* ! video-page */
 
 .sfondo-video{
   position: absolute;
   width:100%;
-  left: -1%;
   bottom: 1%;
   z-index: -1;
 }
-
+.Titolo-video{
+  font-size: 85px;
+  font-weight: 700;
+  position: absolute;
+  right: 65%;
+  bottom: 66%;
+  color: whitesmoke;
+}
 .video1{
   position:absolute;
-  width:600px; 
-  height:350px;
+  width:700px; 
+  height:400px;
   margin-top: 50px;
   margin-left: 15px;
 }
 .video2{
   position:absolute;
   right: 3%;
-  bottom: 30%;
+  bottom: 57%;
 }
 .video3{
   position:absolute;
   right: 3%;
-  bottom: 20%;
+  bottom: 30%;
 }
 .video4{
   position:absolute;
   right: 3%;
-  bottom: 5%;
+  bottom: 3%;
 }
   
 /* ! Contact-page */
