@@ -3,9 +3,14 @@ body{
 }
 a{text-decoration: none; color: blue;}
 
-
 /* ! settings/all-pages */
-
+.fa-brands{
+  position:absolute;
+  left: 4%;
+  top: 5%;
+  font-size: 95px;
+  color: #388eff;
+}
 .header{width:30%;
         position:relative;
         right: -65%;
